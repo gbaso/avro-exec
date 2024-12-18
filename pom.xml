@@ -17,7 +17,7 @@
 
   <properties>
     <java.version>21</java.version>
-    <avro.version>1.11.3</avro.version>
+    <avro.version>1.11.4</avro.version>
     <m2.repository>${user.home}/.m2/repository</m2.repository>
   </properties>
   <dependencies>
