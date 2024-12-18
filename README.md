@@ -2,7 +2,13 @@
 
 Run `./mvnw exec:exec` to generate avsc definitions from avdl schemas.
 
-Run `./mvnw spring-boot:run` to run the application. It should log an hello world message and exit.
+It will fail with:
+
+```shell
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:3.5.0:exec (default-cli) on project avro-exec: Execution default-cli of goal org.codehaus.mojo:exec-maven-plugin:3.5.0:exec failed: Plugin org.codehaus.mojo:exec-maven-plugin:3.5.0 or one of its dependencies could not be resolved:
+[ERROR] 	Could not find artifact org.apache.avro:trevni-core:jar:tests:1.11.4 in central (https://repo.maven.apache.org/maven2)
+[ERROR] 	Could not find artifact org.apache.avro:trevni-avro:jar:tests:1.11.4 in central (https://repo.maven.apache.org/maven2)
+```
 
 ## M2 repository
 
